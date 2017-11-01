@@ -24,7 +24,7 @@ namespace FortuneTellerMVC
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootswatch-cyborg.css",
                       "~/Content/site.css"));
         }
     }

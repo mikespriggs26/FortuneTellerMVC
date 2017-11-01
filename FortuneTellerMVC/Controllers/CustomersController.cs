@@ -38,14 +38,14 @@ namespace FortuneTellerMVC.Controllers
             //age determines how many years to retirement
             if (customer.Age % 2 == 0)
             {
-                ViewBag.Retire = "10";
+                ViewBag.Retire = "20";
             }
             else
             { 
-                ViewBag.Retire = "20";
+                ViewBag.Retire = "10";
             }
 
-            //birth month to determine bank account balance
+            #region Birth month and account balance
             if (customer.BirthMonth <= 0)
             {
                 ViewBag.Balance = "$0.00";
@@ -66,7 +66,9 @@ namespace FortuneTellerMVC.Controllers
             {
                 ViewBag.Balance = "$0.00";
             }
-            //# of siblings determines vacation home
+            #endregion
+
+            #region number of siblings
             if (customer.NumberOfSiblings == 0)
             {
                 ViewBag.VacHome = "Aspen";
@@ -91,7 +93,9 @@ namespace FortuneTellerMVC.Controllers
             {
                 ViewBag.VacHome = "Detroit";
             }
+            #endregion
 
+            #region Favorite Color
             if (customer.FavoriteColor == "red")
             {
                 ViewBag.FavColor = "a Bentley.";
@@ -120,7 +124,7 @@ namespace FortuneTellerMVC.Controllers
             {
                 Console.Write("a limousine.");
             }
-
+            #endregion
 
             return View(customer);
             }//end Details Method

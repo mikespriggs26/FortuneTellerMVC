@@ -197,6 +197,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootswatch-cyborg.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -216,6 +217,8 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>FortuneTellerDatabase.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <Content Include="Images\fortune teller_250_250_250_250.png" />
+    <Content Include="Images\fortuneTeller.jpg" />
     <Content Include="Models\FortuneTellerDatabase.edmx.diagram">
       <DependentUpon>FortuneTellerDatabase.edmx</DependentUpon>
     </Content>

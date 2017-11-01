@@ -22,10 +22,22 @@ select,
 textarea {
     max-width: 280px;
 }
-#fortuneHeader{
+#fortuneDiv{
     text-align:center;
-    font-size:150px;
+    
+}
+#fortuneHeader{
+    font-size:60px;
+    text-align:center;
+    padding-top:25px;
 }
 #fortune{
-    font-size: 40px;
+    font-size: 25px;
+    padding-bottom: 100px;
+    padding-top:50px;
+}
+#fortuneTeller{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
